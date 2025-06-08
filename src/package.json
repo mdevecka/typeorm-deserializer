@@ -1,0 +1,16 @@
+{
+  "name": "typeorm-deserializer",
+  "version": "1.0.0",
+  "main": "./typeorm-deserializer.js",
+  "types": "./typeorm-deserializer.d.ts",
+  "peerDependencies": {
+    "typeorm": ">=0.3.0"
+  },
+  "sideEffects": false,
+  "description": "Allows to deserialize TypeORM entities from raw queries",
+  "files": [
+    "typeorm-deserializer.*"
+  ],
+  "author": "Marian Devecka",
+  "license": "ISC"
+}
