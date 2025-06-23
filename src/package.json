@@ -1,16 +1,9 @@
 {
   "name": "typeorm-deserializer",
-  "version": "1.0.1",
-  "main": "./typeorm-deserializer.js",
-  "types": "./typeorm-deserializer.d.ts",
-  "peerDependencies": {
-    "typeorm": ">=0.3.0"
-  },
-  "sideEffects": false,
+  "version": "1.0.2",
+  "author": "Marian Devecka",
+  "license": "ISC",
   "description": "Allows to deserialize TypeORM entities from raw queries",
-  "files": [
-    "typeorm-deserializer.*"
-  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/mdevecka/typeorm-deserializer"
@@ -19,6 +12,13 @@
     "typescript",
     "typeorm"
   ],
-  "author": "Marian Devecka",
-  "license": "ISC"
+  "main": "./typeorm-deserializer.js",
+  "types": "./typeorm-deserializer.d.ts",
+  "peerDependencies": {
+    "typeorm": ">=0.3.0"
+  },
+  "sideEffects": false,
+  "files": [
+    "typeorm-deserializer.*"
+  ]
 }

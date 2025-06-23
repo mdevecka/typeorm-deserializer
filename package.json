@@ -1,8 +1,17 @@
 {
   "name": "typeorm-deserializer",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Marian Devecka",
   "license": "ISC",
+  "description": "Allows to deserialize TypeORM entities from raw queries",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mdevecka/typeorm-deserializer"
+  },
+  "keywords": [
+    "typescript",
+    "typeorm"
+  ],
   "scripts": {
     "build": "tsc",
     "build-pack": "tsc && node copy-files.mjs && cd dist && npm pack && cd ..",
