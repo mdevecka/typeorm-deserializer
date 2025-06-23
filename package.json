@@ -1,6 +1,6 @@
 {
-  "name": "typeorm entity deserializer",
-  "version": "1.0.0",
+  "name": "typeorm-deserializer",
+  "version": "1.0.1",
   "author": "Marian Devecka",
   "license": "ISC",
   "scripts": {
